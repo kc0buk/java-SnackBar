@@ -26,43 +26,43 @@ Snack has fields (so knows)
 
 Snack has methods (so can)
 
-* get id
-* set and get name
-* set and get cost
-* set and get vending machine id
-* get quantity
-* add quantity when given how many to add
-* buy snack when given how many to buy
-* get total cost given a quantity
+* get id ✅
+* set✅ and get name ✅
+* set✅ and get cost ✅
+* set✅ and get vending machine id ✅
+* get quantity ✅
+* add quantity when given how many to add ✅
+* buy snack when given how many to buy✅
+* get total cost given a quantity ✅
 
 ### VendingMachine
 
 Vending machine has fields (so knows)
 
-* maxId - keep track of last used vending machine id
-* id - automatically generated field
-* name
+* maxId - keep track of last used vending machine id✅
+* id - automatically generated field✅
+* name✅
 
 Vending Machine has methods (so can)
 
-* get id
-* set and get name
+* get id✅
+* set and get name✅
 
 ### Customer
 
 Customer has fields (so knows)
 
-* maxId - keep track of last used customer id
-* id - automatically generated field
-* name
-* cash on hand
+* maxId - keep track of last used customer id✅
+* id - automatically generated field✅
+* name✅
+* cash on hand✅
 
 Customer has methods (so can)
 
-* get id
-* set and get name
-* add cash to cash on hand
-* get cash on hand
+* get id✅
+* set✅ and get name✅
+* add cash to cash on hand✅
+* get cash on hand✅
 * buy snacks. Given the total cost of the snacks to be purchased, reduce the cash on hand by that amount
 
 ### MPV
@@ -145,6 +145,7 @@ Total Cost: $55.00
 ## Instructions
 
 * [x] Please fork and clone this repository. This repository does not have a starter project, so create one inside of the cloned repository folder. Regularly commit and push your code as appropriate.
+* [x] Submit pull request (https://github.com/kc0buk/java-SnackBar/pull/1)
 
 ### The Objects Needed
 
